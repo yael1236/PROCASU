@@ -28,27 +28,27 @@
                     </a>
                   </div>
                   <div class="col-md-6 mx-auto my-3 text-center zoom">
-                    <a class="a" href="buscador.php">
+                    <a class="a" href="#">
                       <h4 class="mt-3">Etapa 1</h4>
                     </a>
                   </div>
                   <div class="col-md-6 mx-auto my-3 text-center zoom">
-                    <a class="a" href="buscador.php">
+                    <a class="a" href="#">
                       <h4 class="mt-3">Etapa 2</h4>
                     </a>
                   </div>
                   <div class="col-md-6 mx-auto my-3 text-center zoom">
-                    <a class="a" href="buscador.php">
+                    <a class="a" href="#">
                       <h4 class="mt-3">Etapa 3</h4>
                     </a>
                   </div><div class="col-md-6 mx-auto my-3 text-center zoom">
-                    <a class="a" href="buscador.php">
+                    <a class="a" href="#">
                       <h4 class="mt-3">Etapa 4</h4>
                     </a>
                   </div>
                 </div>
                 <div class="mt-5 h3" style="text-align: right;">
-                  <a href="app/php/logout.php" class="a"><i class="fa-solid fa-power-off"></i> Salir</a>
+                  <a href="../" class="a"><i class="fa-solid fa-power-off"></i> Salir</a>
                 </div>
                 <!-- Menu principal -->
               

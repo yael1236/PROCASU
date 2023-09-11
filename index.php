@@ -72,7 +72,9 @@
 		<br>
 							<p class="text-center"><sup>©</sup> CORSEC. Todos los derechos reservados. | Diseñado por: <a href="http://corsec.com.mx/" class="text-muted">corsec.com.mx</a></p>
 				<br>
-	</footer>
+				<p>Necesitas ayuda contactanos por correo:  <a href="mailto:celyncabrera19@gmail.com">celyncabrera19@gmail.com</a>
+				</p>
+			</footer>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>

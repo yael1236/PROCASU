@@ -38,7 +38,7 @@
                     <div class="form-group" v-html="datos"></div>
                     <div class="form-group row">
                     <div class="col-sm-6 mb-3 mb-sm-0"> <br>
-                    <h5 class="text-center" >Razon social</h5>
+                    <h5 class="text-center" >Razón social</h5>
                     <input type="password" class="form-control form-control-user mb-3" v-model="passUsr"  required />
                     </div>
                     <div class="col-sm-6">
@@ -74,11 +74,29 @@
                     </div>
                     </div>
                     <div class="col-sm-6">
-                    <h5 class="text-center" >acta constitutiva </h5>
+                    <h5 class="text-center" >Acta constitutiva </h5>
                     <input type="password" class="form-control form-control-user mb-3" v-model="passUsrDos" required />
                     </div>
                     </div>
-                    <button >Guardar</button>
+                    <div style="text-align: center;">
+                    <button name="" class="btn btn-success form-control-user1 my-5" type="submit" style=" align-items: center; width:17rem; font-size: 1em; font-weight: bolder;">GUARDAR</button>
+                    </div>
+                </form>
+                
             </div>
                     </div>
+                    <div class="mt-5 h3" style="text-align: right;">
+                  <a href="../../datos.php" class="a"><i class="fa-solid fa-power-off"></i> Salir</a>
+                </div>
+</div>
+</div>
+</body>
+<footer class="container-fluid pie">
+		<br>
+							<p class="text-center"><sup>©</sup> CORSEC. Todos los derechos reservados. | Diseñado por: <a href="http://corsec.com.mx/" class="text-muted">corsec.com.mx</a></p>
+				<br>
+				<p>Necesitas ayuda contactanos por correo:  <a href="mailto:celyncabrera19@gmail.com">celyncabrera19@gmail.com</a>
+				</p>
+                <br>
+			</footer>
                     
