@@ -1,50 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/styleproy.css">
-    <link rel="stylesheet" href="../../css/animate.min.css">
-    <link rel="stylesheet" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/sb-admin-2.css">
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/style.css.map">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <title>Document</title>
-</head>
-<body style=" background: #aed3e3 ;">
 
-<div class="enc"  style="padding: 1rem; background-color:red; text-align:right; display:  flex;">
-    <div class="icono1"><svg  xmlns="http://www.w3.org/2000/svg" width="5rem" height="5rem" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
-  <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
-  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-</svg></div>
-    <div style="margin-left: 78%;">
-        <a style="color: black;" href="#"> Perfil</a>
-    </div>
-    <div style="margin-left: 10%;">
-        <a style="color: black;" href="#"> Documentos</a>
-    </div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
    
-</div>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <main  style="width: 1200px; height: 900px; margin:0 auto; background-color:white; padding:1rem; margin-top: 1rem;">
-        <div class="box01" style="display: flex;">    
-            <p>Texto principal</p>
-       
-            <div style="width: 500px; height: 100px;background-color:aqua; margin-left: 10px;">
-                 <p> apartados</p>
+    
+    <link rel="stylesheet" href="css/style.css">
+
+   
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,700&display=swap" rel="stylesheet">
+
+    
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <title>Inicio</title>
+</head>
+
+<body>
+    <div class="d-flex" id="content-wrapper">
+
+      
+        <div id="sidebar-container" class="bg-primary" style="height: 38.6rem;">
+            <div class="logo">
+                <h4 class="text-light font-weight-bold mb-0">PROCASU</h4>
             </div>
-            <div style="width: 500px; height: 100px;background-color:aqua; margin-left: 10px;">
-                 <p> apartados</p>
+            <div class="menu">
+                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-apps lead mr-2"></i>
+                    Home</a>
+
+                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-people lead mr-2"></i>
+                    Ayuda</a>
+
+                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-stats lead mr-2"></i>
+                    Nosotros</a>
+                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-person lead mr-2"></i>
+                    Conoce</a>
+                
             </div>
-            
         </div>
-         <br>
-         <div>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga rem, odit velit optio corrupti provident officia accusamus fugit laboriosam deserunt officiis hic accusantium nobis modi amet! Labore aut deserunt cupiditate at dolore dolores sed maxime ipsam. Enim dolorum error voluptates voluptate commodi ullam quos iste temporibus quidem similique delectus atque ex asperiores, dolore, deleniti explicabo necessitatibus, voluptas minima illum iure repellendus. Fugit nostrum voluptatibus dolorem et officia facere eius? Veritatis rem, iste fugiat quos, consequuntur nihil repellendus provident doloribus ipsa accusantium dolorum corporis quisquam sed dolor totam tempora nam harum sequi nemo sit eaque! Esse explicabo tempore voluptatem laboriosam eaque earum odio possimus hic consectetur eos dolore ea, nam quam modi doloremque. Ullam est accusantium ratione ducimus libero vero, hic porro earum, facilis magni veniam! Quos soluta illo quo dolor esse suscipit, accusantium minima perferendis. Eum commodi, ullam pariatur expedita aliquam sint cupiditate nulla officia, nihil voluptas voluptatum ratione? Eius labore, temporibus quibusdam magni vel molestiae vero accusamus dolore et non eveniet numquam harum porro, quisquam placeat soluta cupiditate repellat nisi? Temporibus officia est unde culpa distinctio, quo ratione repudiandae reprehenderit et, ad quia natus tempora praesentium quisquam pariatur rem perferendis velit quasi. Nostrum necessitatibus possimus eaque similique sit. ipsum dolor sit amet consectetur adipisicing elit. Est sit cum repudiandae enim, numquam voluptates corrupti aliquid aperiam sapiente accusamus, magnam odio inventore.</p>
-         </div>
-    </main>
+        
+
+        <div class="w-100">
+
+         <!-- Navbar -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <div class="container">
+    
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <img src="assets/img/user-1.png" class="img-fluid rounded-circle avatar mr-2"
+                      alt="foto" />
+                    nombre usuarios
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Mi perfil</a>
+                      <a class="dropdown-item" href="#">Expediente</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Cerrar sesión</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Fin Navbar -->
+
+       
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+        <script>
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, { 
+                type: 'bar',
+                data: {
+                    labels: ['Feb 2020', 'Mar 2020', 'Abr 2020', 'May 2020'],
+                    datasets: [{
+                        label: 'Nuevos usuarios',
+                        data: [50, 100, 150, 200],
+                        backgroundColor: [
+                            '#12C9E5',  
+                            '#12C9E5',
+                            '#12C9E5',
+                            '#111B54'
+                        ],
+                        maxBarThickness: 30,
+                        maxBarLength: 2
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
+            </script>
 </body>
+
 </html>

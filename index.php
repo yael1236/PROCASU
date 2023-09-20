@@ -51,8 +51,6 @@
 								<input type="password" id="password1" name="password1" class="form-control form-control-user mb-3" placeholder="Contraseña" v-model="txtPws">
 								
 								<button name="entrar" class="btn btn-success form-control-user1 my-8" type="submit" style=" align-items: center; width:17rem; font-size: 1.2em; font-weight: bolder;">Inicio</button>
-								<br> <br>
-								<a href="app/php/registro.php" class="btn btn-success form-control-user1 my-8"  style=" align-items: center; width:17rem; font-size: 1.2em; font-weight: bolder;">Registro</a>
 								
 							</div>
 							</form>
@@ -68,7 +66,7 @@
 	<div class="a-p">
 		<a href="app/php/menu.php" target="_blank">Aviso de Privacidad</a>
 		
-		<a class="a-p1" style="margin-left: 88.7rem;" href="app/php/menu.php">Política de Confidencialidad</a>
+		<a class="a-p1" style="margin-left: 88.7rem;" target="_blank" href="app/php/menu.php">Política de Confidencialidad</a>
 		</div>
 	<footer class="container-fluid pie">
 		<br>
