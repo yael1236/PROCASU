@@ -13,7 +13,7 @@
 </head>
 <body style="background-color: #0e0c0a;">
     <div style="text-align: center;">
-    <embed src="../../docs/AvisoPrivacidad.pdf" type="application/pdf" width="90%" height="600"/>
+    <embed src="../../docs/AvisoPrivacidad.pdf" type="application/pdf" width="100%" height="800"/>
     </div>
 </body>
 </html>

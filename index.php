@@ -31,11 +31,11 @@
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top grisNav">
 			<img src="img/logoNAV-01.svg" class="animated fadeInLeft" alt="Logo NAV">
 		</div>
-		<div class="text-bg-primary p-3" style=" margin-top: 6rem; width: 650px; margin: 0 auto; height: 748px;">
+		<div class="text-bg-primary p-3" style=" margin-top: 6rem; width: 650px; margin: 0 auto; height: 948px;">
 			<h1 class="fw-danger h1 mb-4 text-center " -apple-system="roboto">¡Bienvenido a PROCASU!</h1>
 			<h2 class="fw-danger h2 mb-4 text-center " style="font-size: 1em;">PROGRAMA PARA EL DESARROLLO DE LA SUSTENTABILIDAD EN LA CADENA DE SUMINISTRO</h2>
 			
-		<main style="width: 650px; margin: 0 auto; height: 580px; border-radius: 2.5rem; background-color: #c8c8c8;">
+		<main style="width: 650px; margin: 0 auto; height: 800px; border-radius: 2.5rem; background-color: #c8c8c8;">
 			<div class="row justify-content-center align-items-center vh-100 animate__animated animate__fadeIn">
 				
 					<div class="col-md-10 mx-auto">
@@ -51,6 +51,8 @@
 								<input type="password" id="password1" name="password1" class="form-control form-control-user mb-3" placeholder="Contraseña" v-model="txtPws">
 								
 								<button name="entrar" class="btn btn-success form-control-user1 my-8" type="submit" style=" align-items: center; width:17rem; font-size: 1.2em; font-weight: bolder;">Inicio</button>
+								<br> <br>
+								<a href="app/php/registro.php" class="btn btn-success form-control-user1 my-8"  style=" align-items: center; width:17rem; font-size: 1.2em; font-weight: bolder;">Registro</a>
 								
 							</div>
 							</form>
@@ -66,7 +68,7 @@
 	<div class="a-p">
 		<a href="app/php/menu.php" target="_blank">Aviso de Privacidad</a>
 		
-		<a class="a-p1" href="app/php/menu.php">Política de Confidencialidad</a>
+		<a class="a-p1" style="margin-left: 88.7rem;" href="app/php/menu.php">Política de Confidencialidad</a>
 		</div>
 	<footer class="container-fluid pie">
 		<br>

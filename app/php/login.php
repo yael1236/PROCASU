@@ -9,7 +9,7 @@ $query = "SELECT * FROM usuarios WHERE usuario = '$user' AND contrasena = '$pass
 $result = $con->query($query);
 if ($result->fetchArray()) {
     // Inicio de sesión exitoso
-    header("location: ../../datos.php");
+    header("location: inicio.php");
     echo "Bienvendido";
 } else {
     // Credenciales incorrectas
