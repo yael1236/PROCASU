@@ -30,7 +30,7 @@
 </div>
 
     <main  style="width: 1200px; height: 900px; margin:0 auto; background-color:white; padding:1rem; margin-top: 1rem;">
-        <div class="box01">    
+        <div class="box01" style="display: flex;">    
             <p>Texto principal</p>
        
             <div style="width: 500px; height: 100px;background-color:aqua; margin-left: 10px;">
