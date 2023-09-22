@@ -31,11 +31,11 @@
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top grisNav">
 			<img src="img/logoNAV-01.svg" class="animated fadeInLeft" alt="Logo NAV">
 		</div>
-		<div class="text-bg-primary p-3" style=" margin-top: 6rem; width: 650px; margin: 0 auto; height: 948px;">
+		<div class="text-bg-primary p-3" style=" margin-top: 6rem; width: 650px; margin: 0 auto; height: 748px;">
 			<h1 class="fw-danger h1 mb-4 text-center " -apple-system="roboto">¡Bienvenido a PROCASU!</h1>
 			<h2 class="fw-danger h2 mb-4 text-center " style="font-size: 1em;">PROGRAMA PARA EL DESARROLLO DE LA SUSTENTABILIDAD EN LA CADENA DE SUMINISTRO</h2>
 			
-		<main style="width: 650px; margin: 0 auto; height: 800px; border-radius: 2.5rem; background-color: #c8c8c8;">
+		<main style="width: 650px; margin: 0 auto; height: 600px; border-radius: 2.5rem; background-color: #c8c8c8;">
 			<div class="row justify-content-center align-items-center vh-100 animate__animated animate__fadeIn">
 				
 					<div class="col-md-10 mx-auto">
@@ -66,7 +66,7 @@
 	<div class="a-p">
 		<a href="app/php/menu.php" target="_blank">Aviso de Privacidad</a>
 		
-		<a class="a-p1" style="margin-left: 88.7rem;" target="_blank" href="app/php/menu.php">Política de Confidencialidad</a>
+		<a class="a-p1" style="margin-left: rem;" target="_blank" href="app/php/menu.php">Política de Confidencialidad</a>
 		</div>
 	<footer class="container-fluid pie">
 		<br>

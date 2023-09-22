@@ -38,6 +38,7 @@
                     <div class="form-group" v-html="datos"></div>
                     <div class="form-group row">
                     <div class="col-sm-6 mb-3 mb-sm-0"> 
+                        <br>
                     <h5 class="text-center" >Razón social</h5>
                     <input type="text"name="rs" id="rs" class="form-control form-control-user mb-3" v-model="text"  required />
                     </div>
@@ -53,28 +54,26 @@
                     <div class="form-group row">
                     <div class="col-sm-6 mb-3 mb-sm-0">
                     <h5 class="text-center" >CFS</h5>
-                    <input type="file" style="padding: 7.9px; height:3.8rem; width: 28rem ; text-align: center;" name="archivo" id="archivo" class="form-control form-control-user mb-3"  required >
+                    <input type="file" style="padding: 7.9px; height:3.8rem; font-size: 1.2rem; width: 110% ; text-align: center;" name="archivo" id="archivo" class="form-control form-control-user mb-3"  required >
                     </div>
                     <div class="col-sm-6">
                     <h5 class="text-center" >INE representante legal</h5>
-                    <input type="file" style="padding: 7.9px; height:3.8rem; width: 28rem ; text-align: center;" name="archivo1" id="archivo1" class="form-control form-control-user mb-3" required />
+                    <input type="file" style="padding: 7.9px; height:3.8rem; font-size: 1.2rem; width: 110% ; text-align: center;" name="archivo1" id="archivo1" class="form-control form-control-user mb-3" required />
                     </div>
                     </div>
-                    <div class="mx-2 mx-md-3 my-md-3 my-3">
                     <div class="form-group row">
                     <div class="col-sm-6 mb-3 mb-sm-0">
                     <h5 class="text-center" >Logo</h5>
-                    <input  type="file" style="padding: 7.9px; height:3.8rem; width: 28rem ; text-align: center;" name="archivo2" id="archivo2" class="form-control form-control-user mb-3" required >
+                    <input  type="file" style="padding: 7.9px; height:3.8rem; font-size: 1.2rem; width: 110% ; text-align: center;" name="archivo2" id="archivo2" class="form-control form-control-user mb-3" required >
                     </div>
                     <div class="col-sm-6">
                     <h5 class="text-center" >NDA firmado </h5>
-                    <input type="file" style="padding: 7.9px; height:3.8rem; width: 28rem ; text-align: center;" name="archivo3" id="archivo3" class="form-control form-control-user mb-3" required />
+                    <input type="file" style="padding: 7.9px; height:3.8rem; font-size: 1.2rem; width: 110% ;text-align: center;" name="archivo3" id="archivo3" class="form-control form-control-user mb-3" required />
                     </div>
                     </div>
                     <div class="col-sm-6">
                     <h5 class="text-center" >Acta constitutiva </h5>
-                    <input type="file" style="padding: 7.9px; height:3.8rem; width: 28rem ; text-align: center;" name="archivo4" id="archivo4" class="form-control form-control-user mb-3" required>
-                    </div>
+                    <input type="file" style="padding: 7.9px; height:3.8rem;  font-size: 1.2rem; width: 110% ; text-align: center;" name="archivo4" id="archivo4" class="form-control form-control-user mb-3" required>
                     </div>
                     <div style="text-align: center;">
                     <button name="registrar" class="btn btn-success form-control-user1 my-5" type="submit" style=" align-items: center; width:17rem; font-size: 1em; font-weight: bolder;">GUARDAR</button>
