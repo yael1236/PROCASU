@@ -205,7 +205,7 @@ if (isset($_POST['submit'])) {
                             <label for="nombre" class="form-label"> Nombre</label>
                             <input type="text" style="width: 21.5rem;" class="form-control" id="nombre" name="nombre" required autofocus>
                         </div>
-                        <div style="">
+                        <div >
                         <div class="form-group col-12 col-sm-6">
                             <label for="email" class="form-label"> Correo electrónico</label>
                             <input type="email" style="width: 21.5rem;" class="form-control" id="email" name="email" required>

@@ -29,22 +29,28 @@
     <div class="d-flex" id="content-wrapper">
 
       
-        <div id="sidebar-container" class="bg-primary" style="height: 38.6rem;">
+        <div id="sidebar-container" class="bg-primary" style="height: 38.6rem; width:7.5rem;">
             <div class="logo">
                 <h4 class="text-light font-weight-bold mb-0">PROCASU</h4>
             </div>
             <div class="menu">
-                <a href="inicio.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-apps lead mr-2"></i>
+            <a href="../inicio.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-apps lead mr-2"></i>
                     Home</a>
+                    <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-people lead"></i>
+                    Modelo de gestión</a>
+                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-bookmarks lead"></i>
+                    Biblioteca Digital</a>
 
-                <a href="ayuda.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-people lead mr-2"></i>
+                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-document lead"></i></i>
+                    Herramientas PROCASU</a>          
+
+                <a href="/app/php/contacto-html-php/contacto.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-people lead mr-2"></i>
                     Ayuda</a>
 
                 <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-stats lead mr-2"></i>
                     Nosotros</a>
-                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-person lead mr-2"></i>
-                    Conoce</a>
-                
+                    <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-people lead"></i>
+                    Conoce PROCASU</a>
             </div>
         </div>
         
