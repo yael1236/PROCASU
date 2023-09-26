@@ -39,7 +39,7 @@ if (isset($_POST['submit'])) {
         $msj .= "Asunto: $asunto<br><br>";
         $msj .= "Cuerpo del mensaje:";
         $msj .= '<p>' . $mensaje . '</p>';
-        $msj .= "--<p>Este mensaje se ha enviado desde un formulario de contacto de Código de programación.</p>";
+        $msj .= "--<p>Información enviada desde el formulario </p>";
 
         $mail = new PHPMailer(true);
 
