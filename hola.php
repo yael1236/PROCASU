@@ -24,14 +24,13 @@
 <body style="background-color: #c7c8ca;">
 <div class=" mb-3" style="max-width: 100%; background-color: #c7c8ca;">
   <div class="row g-0">
-    <div class="col-md-7">
+    <div class="col-md-6">
       <img src="img/PROCASU.jpg" class="img-fluid rounded-start" alt="...">
     </div>
-    <div class="col-md-5" style="background-color: #c7c8ca;">
-        <br><br><br>
+    <div class="col-md-6" style="background-color: #c7c8ca;   align-content: center;">
+    <br><br><br><br><br><br>
       <div class="">
       <h1 class="fw-light h3 mb-4 text-center">¡Bienvenido!</h1>
-                        <h2 class="fw-light h5 mb-4 text-center" style="font-size: 1.1em;">Sistema de Cotizaciones.</h2>
                         <form action="app/php/login.php" method="POST">
                             <input type="email" class="form-control form-control-user mb-3" placeholder="Correo Electrónico" name="Email">
                             <input type="password"  class="form-control form-control-user mb-3" placeholder="Contraseña" name="password" >
@@ -41,9 +40,14 @@
                             <button style="font-size:1.4rem; padding:.2rem;" class="btn btn-primary form-control form-control-user1 my-3" type="submit" value="Iniciar sesión">Inicio</button>
                         </form>
                         <hr>
+                        <div style="display: flex;">
                         <div class="text-center">
-                           <p>Grupo CORSEC le agradece su confianaza</p>
+                          <a href="docs/AvisoPrivacidad.pdf">Aviso de Privacidad</a>
                         </div>
+                        <div class="text-center" style="margin-left:70%;">
+                          <a href="docs/Vx-PR-ESR__php echo $Fecha; ____php echo $nomEmp; __ (7).pdf">Politicas</a>
+                        </div>
+                   </div>
                     </div>
     </div>
   </div>
@@ -51,9 +55,11 @@
 </body>
 <footer >    
 <div style="display: flex;">
-    <img src="img/PROCASUpie.jpeg" alt="proc" style="height: 4.3rem;">
-    <div style="width: 28rem; padding-top:.3rem;">
-    <p>PROGRAMA PARA EL DESARROLLO DE LA SUSTENTABILIDAD EN LA CADENA DE SUMINISTRO</p>
+    <img src="img/PROCASUpie.jpeg" alt="proc" style="height: 4.3rem; ">
+    <div style="width: 28rem; padding-top:.3rem; margin-left:1rem;">
+    <p style="font-size: .5rem;">PROGRAMA PARA EL DESARROLLO DE LA SUSTENTABILIDAD EN LA CADENA DE SUMINISTRO</p>
+    </td>
+   
     </div>
 </div>
 </footer>

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="css/estilosinicio-perfil.css">
+    <link rel="stylesheet" href="../../css/estilosinicio-perfil.css">
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,700&display=swap" rel="stylesheet">
@@ -58,7 +58,7 @@
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item dropdown">
                                 <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img src="img/usuario.jpg" class="img-fluid rounded-circle avatar mr-2" alt="https://generated.photos/" />
+                                    <img src="../../img/usuario.jpg" class="img-fluid rounded-circle avatar mr-2" alt="https://generated.photos/" />
                                     Usuario
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -90,7 +90,7 @@
 
                         <div class="row">
                             <div class="col-4">
-                            <img src="img/usuario.jpg" class="img-thumbnail" alt="...">
+                            <img src="../../img/usuario.jpg" class="img-thumbnail" alt="...">
                             </div>
                             <div class="col-8">
                                 <div class="form-group row">

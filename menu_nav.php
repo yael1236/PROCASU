@@ -62,7 +62,7 @@
                   <li class="nav-item dropdown">
                     <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button"
                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <img src="..img/usuario.jpg" class="img-fluid rounded-circle avatar mr-2"
+                      <img src="img/usuario.jpg" class="img-fluid rounded-circle avatar mr-2"
                       alt=" " />
                     Usuario
                     </a>
