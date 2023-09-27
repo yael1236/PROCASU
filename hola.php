@@ -21,16 +21,22 @@
     
     <title>Document</title>
 </head>
-<body style="background-color: #c7c8ca;">
-<div class=" mb-3" style="max-width: 100%; background-color: #c7c8ca;">
-  <div class="row g-0">
+<body style="background-color: #dddd;">
+<!--ACTUALIZADO 270902023 -->
+<main> 
+<div class=" mb-3" style="max-width: 100%; max-height: 50rem; background-color: #dddd;">
+  <div class="row g-0" style="background-color: #dddd;">
     <div class="col-md-6">
-      <img src="img/PROCASU.jpg" class="img-fluid rounded-start" alt="...">
+      <img src="img/PROCASU.jpg" class="img-fluid rounded-start" style="height: 100%; margin-left: 2rem;" alt="...">
     </div>
-    <div class="col-md-6" style="background-color: #c7c8ca;   align-content: center;">
-    <br><br><br><br><br><br>
-      <div class="">
-      <h1 class="fw-light h3 mb-4 text-center">¡Bienvenido!</h1>
+    <div class="col-md-6" style="background-color: #dddd; align-content: center; ">
+    <br><br>
+      <div style="margin: 3rem;">
+      <div>
+      <h1 class="fw-light h1 mb-4 text-center">¡Bienvenido!</h1>
+      
+      </div>
+      <p style="text-align: center; font-size:xx-large;">Iniciar Sesión</p>
                         <form action="app/php/login.php" method="POST">
                             <input type="email" class="form-control form-control-user mb-3" placeholder="Correo Electrónico" name="Email">
                             <input type="password"  class="form-control form-control-user mb-3" placeholder="Contraseña" name="password" >
@@ -52,12 +58,16 @@
     </div>
   </div>
 </div>
+</main>
+<div>
+  
+</div>
 </body>
 <footer >    
 <div style="display: flex;">
-    <img src="img/PROCASUpie.jpeg" alt="proc" style="height: 4.3rem; ">
-    <div style="width: 28rem; padding-top:.3rem; margin-left:1rem;">
-    <p style="font-size: .5rem;">PROGRAMA PARA EL DESARROLLO DE LA SUSTENTABILIDAD EN LA CADENA DE SUMINISTRO</p>
+    <img src="img/PROCASUpie.jpeg" alt="proc" style="height: 2.3rem; margin:.5rem; ">
+    <div style="width: 33rem; padding-top:.3rem; margin-left:1rem;">
+    <p style="font-size: .7rem; margin-top:.9rem; padding-left:.3rem; border-left:solid #ffff;">PROGRAMA PARA EL DESARROLLO DE LA SUSTENTABILIDAD EN LA CADENA DE SUMINISTRO</p>
     </td>
    
     </div>
