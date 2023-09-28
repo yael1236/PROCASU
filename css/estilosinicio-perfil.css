@@ -2,17 +2,20 @@
     --primary: #111B54;
     --light: #ffffff;
     --grey: #efefef;
+    --procasu:#15224D; 
+    --pro: #11BDD1;
 }
 
 body {
-    overflow: hidden;
+    
     font-family: 'Muli', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
     color: var(--primary);
 }
 
 a:hover {
     text-decoration: none;
+    font-weight: 100;
 }
 
 .bg-primary { background-color: var(--primary) !important; }
@@ -45,7 +48,7 @@ a:hover {
 }
 
 #content {
-    overflow-y: auto;
+    
     height: 100vh;
     padding-bottom: 5rem;
 }
@@ -62,6 +65,15 @@ a:hover {
     border-right: 1px solid var(--grey);
 }
 
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+  }
   
 @media (max-width: 768px) {
     #sidebar-container {
@@ -72,3 +84,38 @@ a:hover {
     }
   }
   
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: red;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+    color: #0a1a2a;
+}
+.pie-pagina .border-bottom{
+    color: var(--procasu);
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+.menu .border-info{
+    padding: 4;
+}
+
+/*Estilos Modelo G*/
+.largo{
+   width: 125px;
+}
+.conbnt{
+    display: flex;
+}
+
+
+
+
+
