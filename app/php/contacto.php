@@ -39,7 +39,7 @@ if (isset($_POST['submit'])) {
         $msj .= "Asunto: $asunto<br><br>";
         $msj .= "Cuerpo del mensaje:";
         $msj .= '<p>' . $mensaje . '</p>';
-        $msj .= "--<p>Este mensaje se ha enviado desde un formulario de contacto de Código de programación.</p>";
+        $msj .= "--<p>Información enviada desde el formulario </p>";
 
         $mail = new PHPMailer(true);
 
@@ -80,7 +80,7 @@ if (isset($_POST['submit'])) {
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="css/estilosinicio-perfil.css">
+    <link rel="stylesheet" href="./PHPMailer/css/stylesMJ.css">
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,700&display=swap" rel="stylesheet">
@@ -90,15 +90,8 @@ if (isset($_POST['submit'])) {
 
     <!-- Bootstrap Iconos -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta name="google-site-verification" content="qnDadobuivgM5xcw5VnpxU7Qp_18voEGWooZHQsKYUc" />
 	
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <script src="js/bootstrap.bundle.min.js"></script>
     <title>Contacto</title>
 </head>
 
@@ -106,12 +99,12 @@ if (isset($_POST['submit'])) {
     <div class="d-flex" id="content-wrapper">
 
       
-        <div id="sidebar-container" class="bg-primary" style="height: 45.6rem; width:7.5rem;">
+        <div id="sidebar-container" class="bg-primary" style="height: 45.9rem; width:7.5rem;">
         <div class="logo">
-                <h4 class="text-light font-weight-bold mb-0">PROCASU</h4>
+                <h5 class="text-light font-weight-bold mb-0">PROCASU</h5>
             </div>
             <div class="menu">
-            <a href="../inicio.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-apps lead mr-2"></i>
+            <a href="../php/inicio.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-apps lead mr-2"></i>
                     Home</a>
                     <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-people lead"></i>
                     Modelo de gestión</a>
@@ -157,8 +150,8 @@ if (isset($_POST['submit'])) {
                     nombre usuarios
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Mi perfil</a>
-                      <a class="dropdown-item" href="#">Expediente</a>
+                      <a class="dropdown-item" href="../php/perfil.php">Mi perfil</a>
+                      <a class="dropdown-item" href="../php/expediente.php">Expediente</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="../../index.php">Cerrar sesión</a>
                     </div>
@@ -168,7 +161,7 @@ if (isset($_POST['submit'])) {
             </div>
           </nav>
 
-          <main style="height: 41.3rem; width:auto; background-color:cadetblue;">
+          <main style="height: 41.3rem; width:auto;">
           <div style="display: flex; margin:none; padding:none; ">
         <div class="container py-3">
             <header class="mb-4 border-bottom">
@@ -235,10 +228,10 @@ if (isset($_POST['submit'])) {
 											</div>
 											<div class="col-10 p-0" ><a style="color:black;" href="https://wa.me/5525380790">Whatsapp PROCASU</a>
                                             </div>
-											<div class="col-2 text-right">
-                                            <i class="bi bi-phone-vibrate-fill"></i>
+											<div class="col-2 text-right" class="iconos">
+                                            <img src="../../Iconos/Icono-Telefono.png" width="35px">
 											</div>
-											<div class="col-10 p-0"><a style="color:black;" href="tel:+52 5525380790">Linea PROCASU</a></div>
+											<div class="col-9 p-0"><a style="color:black;" href="tel:+52 5525380790">Linea PROCASU</a></div>
 											</div>
                                             <span style="font-size:0.9rem;">Contactate con nosotros al numero que aparece abajo.</span>
                                             <br>
@@ -263,7 +256,9 @@ if (isset($_POST['submit'])) {
             <?php } ?>
 
             <footer >
-          
+            <br>
+					<p class="text-center">Copyright <sup>©</sup> 2023-2024 Procasu todos los derechos reservados </p>
+				
             </footer>
             
       
