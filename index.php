@@ -28,6 +28,12 @@
 <body class="parallax">
 	<div class="container-fluid fondoColor" >
 		<div class="col-12 m-0 p-0">			<!-- ENCABEZADO -->
+		/* The `<nav>` element with the class `navbar navbar-expand-lg navbar-light fixed-top grisNav` is
+		creating a navigation bar at the top of the page. The `navbar` class sets the basic styling for
+		the navigation bar, while `navbar-expand-lg` makes it expand to full width on large screens. The
+		`navbar-light` class sets a light color scheme for the navigation bar, and `fixed-top` makes it
+		stick to the top of the viewport even when scrolling. Finally, `grisNav` is a custom class that
+		may define additional styling for the navigation bar. */
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top grisNav">
 			<img src="img/logoNAV-01.svg" class="animated fadeInLeft" alt="Logo NAV">
 		</div>
