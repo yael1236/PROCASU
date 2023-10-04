@@ -68,7 +68,7 @@
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
               <li class="nav-item dropdown">
                 <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <img src="../../img/usuario.jpg" class="img-fluid rounded-circle avatar mr-2" alt=" " />
+                  <img src="../../img/Iconos_png/Icono-Usuario.png" class="img-fluid rounded-circle avatar mr-2" alt=" " />
                   Usuario
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
