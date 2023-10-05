@@ -26,37 +26,34 @@
     <title>Indicadores</title>
 </head>
 <body>
-    <div class="d-flex" id="content-wrapper">
+<div class="d-flex" id="content-wrapper">
 
-      
-        <div id="sidebar-container" class="bg-primary" style="height: 45.9rem; width:7.5rem;">
-        <div class="logo">
-                <h5 class="text-light font-weight-bold mb-0">PROCASU</h5>
+    <!-- MENU -->
+    <div id="sidebar-container" class="bg-primary" style=" top:0; height:auto;">
+            <div class="logo">
+                <h4 class="text-light font-weight-bold mb-0">PROCASU</h4>
             </div>
             <div class="menu">
-            <a href="../php/inicio.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-apps lead mr-2"></i>
+            <a href="inicio.php" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Sitio-web.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Home</a>
-                    <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-people lead"></i>
+                    <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Modelos-de-Gestion.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Modelo de gestión</a>
-                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-bookmarks lead"></i>
+                <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Biblioteca-Digital.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Biblioteca Digital</a>
 
-                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-document lead"></i></i>
+                <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Herramientas-PROCASU.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Herramientas PROCASU</a>          
 
-                <a href="/app/php/contacto.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-people lead mr-2"></i>
+                <a href="../php/contacto.php" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Correo.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Ayuda</a>
 
-                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-stats lead mr-2"></i>
+                <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Usuario.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Nosotros</a>
-                    <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-people lead"></i>
+                    <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Conoce-PROCASU.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Conoce PROCASU</a>
-               
-                
             </div>
         </div>
-        
-
+    <!-- Fin MENU -->
         <div class="w-100">
 
          <!-- Navbar -->
@@ -143,22 +140,15 @@
     </div>
       </div>      
     </div>
+        </div>
          <div class="mt-5 h3" style="text-align:right;">
     <a href="inicio.php" class="a">
       <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2.7rem" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
   <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
 </svg> Regresar</a> 
-          </body>    
-          </main>
-</body>
+</main>
 
- <footer  class="container-fluid pie">
- <br>
- <p class="text-center py-2"style="width: 100%;">Copyright <sup>©</sup> 2023-2024 Procasu todos los derechos reservados </p>
-</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -201,4 +191,15 @@
                 }
             });
             </script>
+        </div>
+</div>
+</body>
+<footer >
+            <br>
+					<p class="text-center">Copyright <sup>©</sup> 2023-2024 Procasu todos los derechos reservados </p>
+				
+            </footer>
+            </main>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body> 
 </html>

@@ -97,34 +97,32 @@ if (isset($_POST['submit'])) {
 
 <body>
     <div class="d-flex" id="content-wrapper">
-
-      
-        <div id="sidebar-container" class="bg-primary" style="height: 45.9rem; width:7.5rem;">
-        <div class="logo">
-                <h5 class="text-light font-weight-bold mb-0">PROCASU</h5>
+ <!-- MENU -->
+ <div id="sidebar-container" class="bg-primary" style=" top:0; height:auto;">
+            <div class="logo">
+                <h4 class="text-light font-weight-bold mb-0">PROCASU</h4>
             </div>
             <div class="menu">
-            <a href="../php/inicio.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-apps lead mr-2"></i>
+            <a href="inicio.php" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Sitio-web.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Home</a>
-                    <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-people lead"></i>
+                    <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Modelos-de-Gestion.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Modelo de gestión</a>
-                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-bookmarks lead"></i>
+                <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Biblioteca-Digital.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Biblioteca Digital</a>
 
-                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-document lead"></i></i>
+                <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Herramientas-PROCASU.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Herramientas PROCASU</a>          
 
-                <a href="/app/php/contacto-html-php/contacto.php" class="d-block text-light p-3 border-0"><i class="icon ion-md-people lead mr-2"></i>
+                <a href="../php/contacto.php" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Correo.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Ayuda</a>
 
-                <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-stats lead mr-2"></i>
+                <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Usuario.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Nosotros</a>
-                    <a href="#" class="d-block text-light p-3 border-0"><i class="icon ion-md-people lead"></i>
+                    <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Conoce-PROCASU.png" class="icon ion-md-people lead mr-2" style="width:50px;">
                     Conoce PROCASU</a>
-               
-                
             </div>
         </div>
+    <!-- Fin MENU -->
         
 
         <div class="w-100">
@@ -161,8 +159,8 @@ if (isset($_POST['submit'])) {
             </div>
           </nav>
 
-          <main style="height: 41.3rem; width:auto;">
-          <div style="display: flex; margin:none; padding:none; ">
+          <main style="height:auto; width:auto;">
+          <div style="display: flex; margin:none; padding:none; height:90%; ">
         <div class="container py-3">
             <header class="mb-4 border-bottom">
                 <h1 class="fs-4">Contacto</h1>
@@ -226,16 +224,16 @@ if (isset($_POST['submit'])) {
 											<div class="col-2 text-right">
 											<i class="bi bi-whatsapp"></i>
 											</div>
-											<div class="col-10 p-0" ><a style="color:black;" href="https://wa.me/5525380790">Whatsapp PROCASU</a>
+											<div class="col-10 p-0" ><a style="color:black;" href="https://wa.me/5541232916">Whatsapp PROCASU</a>
                                             </div>
 											<div class="col-2 text-right" class="iconos">
                                             <img src="../../Iconos/Icono-Telefono.png" width="35px">
 											</div>
-											<div class="col-9 p-0"><a style="color:black;" href="tel:+52 5525380790">Linea PROCASU</a></div>
+											<div class="col-9 p-6"><a style="color:black;" href="tel:+52 55-4123-29116">Linea PROCASU</a></div>
 											</div>
                                             <span style="font-size:0.9rem;">Contactate con nosotros al numero que aparece abajo.</span>
                                             <br>
-                                            <span style="font-size: 17px; font-weight: bold;">5525380790</span><br>
+                                            <span style="font-size: 17px; font-weight: bold;">55-4123-29116</span><br>
                                             <small style="font-size:0.9rem;">Horario de atencion al cliente:</small><br>
                                              <small style="font-size:0.9rem;">Lunes - Viernes de 09:00: 18:00</small>
                                          </div>
@@ -255,11 +253,7 @@ if (isset($_POST['submit'])) {
                 </div>
             <?php } ?>
 
-            <footer >
-            <br>
-					<p class="text-center">Copyright <sup>©</sup> 2023-2024 Procasu todos los derechos reservados </p>
-				
-            </footer>
+            
             
       
           </main>
@@ -273,7 +267,7 @@ if (isset($_POST['submit'])) {
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -316,6 +310,12 @@ if (isset($_POST['submit'])) {
                 }
             });
             </script>
+</body>
+<footer >
+            <br>
+					<p class="text-center">Copyright <sup>©</sup> 2023-2024 Procasu todos los derechos reservados </p>
+				
+            </footer>
 
 </html>
     
