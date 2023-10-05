@@ -96,7 +96,7 @@
               <img src="../../img/usuario.jpg"  style="width:10rem;">
               <h1 style="margin-left: 1rem;">Usuario 1</h1>
                <!-- Button trigger modal -->
-               <div style="margin-left:37%;">
+               <div style="margin-left:43%;">
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
  Añadir comité
 </button>
