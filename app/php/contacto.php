@@ -81,6 +81,7 @@ if (isset($_POST['submit'])) {
 
     <!-- Styles -->
     <link rel="stylesheet" href="./PHPMailer/css/stylesMJ.css">
+    <link rel="stylesheet" href="../../style-nav.css">
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,700&display=swap" rel="stylesheet">
@@ -95,36 +96,37 @@ if (isset($_POST['submit'])) {
     <title>Contacto</title>
 </head>
 
-<body>
-    <div class="d-flex" id="content-wrapper">
- <!-- MENU -->
- <div id="sidebar-container" class="bg-primary" style=" top:0; height:auto;">
+<div class="d-flex" id="content-wrapper">
+
+    <!-- MENU -->
+    <div id="sidebar-container" class="bg-primary" style=" top:0; height:auto;">
             <div class="logo">
                 <h4 class="text-light font-weight-bold mb-0">PROCASU</h4>
             </div>
             <div class="menu">
-            <a href="inicio.php" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Sitio-web.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Home</a>
-                    <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Modelos-de-Gestion.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Modelo de gestión</a>
-                <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Biblioteca-Digital.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Biblioteca Digital</a>
-
-                <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Herramientas-PROCASU.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Herramientas PROCASU</a>          
-
-                <a href="../php/contacto.php" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Correo.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Ayuda</a>
-
-                <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Usuario.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Nosotros</a>
-                    <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Conoce-PROCASU.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Conoce PROCASU</a>
+            <a href="#" class="m-3 d-inline-block btn  d-block  " style="padding:1rem; background-color: var(--procasu3); text-align: center; ">
+                    <img src="../../img/Icono-Herramientas-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: .5rem;">
+                    Herramientas PROCASU
+                </a>
+                <br>
+                <br>
+                <a href="#" class="m-3 d-inline-block btn d-block   " style="padding:1rem; background-color: var(--procasu3); margin-left: rem;  ">
+                    <img src="../../img/Icono-Biblioteca-Digital.png" alt="herramientas" class="iconos " style="margin-right: 3rem;">
+                    Biblioteca Digital
+                </a>
+                <br>
+                <a href="#" class="m-3 d-inline-block btn d-block " style="padding:1rem; background-color: var(--procasu3);   ">
+                    <img src="../../img/Icono-Conoce-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
+                    Conoce PROCASU
+                </a>
+                <br>
+                <a href="../php/contacto.php" class="m-3 d-inline-block btn  d-block " style="padding:1rem; background-color: var(--procasu3); ">
+                    <img src="../../img/Icono-Necesitas-Ayuda.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
+                    ¿Necesitas Ayuda?
+                </a>
             </div>
         </div>
     <!-- Fin MENU -->
-        
-
         <div class="w-100">
 
          <!-- Navbar -->

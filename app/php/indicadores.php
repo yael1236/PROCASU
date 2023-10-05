@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="../../css/stylein.css">
+    <link rel="stylesheet" href="../../style-nav.css">
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,700&display=swap" rel="stylesheet">
@@ -34,23 +35,26 @@
                 <h4 class="text-light font-weight-bold mb-0">PROCASU</h4>
             </div>
             <div class="menu">
-            <a href="inicio.php" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Sitio-web.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Home</a>
-                    <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Modelos-de-Gestion.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Modelo de gestión</a>
-                <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Biblioteca-Digital.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Biblioteca Digital</a>
-
-                <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Herramientas-PROCASU.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Herramientas PROCASU</a>          
-
-                <a href="../php/contacto.php" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Correo.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Ayuda</a>
-
-                <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Usuario.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Nosotros</a>
-                    <a href="#" class="d-block text-light p-3 border-0"><img src="../../img/Iconos_png/Icono-Conoce-PROCASU.png" class="icon ion-md-people lead mr-2" style="width:50px;">
-                    Conoce PROCASU</a>
+            <a href="#" class="m-3 d-inline-block btn  d-block  " style="padding:1rem; background-color: var(--procasu3); text-align: center; ">
+                    <img src="../../img/Icono-Herramientas-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: .5rem;">
+                    Herramientas PROCASU
+                </a>
+                <br>
+                <br>
+                <a href="#" class="m-3 d-inline-block btn d-block   " style="padding:1rem; background-color: var(--procasu3); margin-left: rem;  ">
+                    <img src="../../img/Icono-Biblioteca-Digital.png" alt="herramientas" class="iconos " style="margin-right: 3rem;">
+                    Biblioteca Digital
+                </a>
+                <br>
+                <a href="#" class="m-3 d-inline-block btn d-block " style="padding:1rem; background-color: var(--procasu3);   ">
+                    <img src="../../img/Icono-Conoce-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
+                    Conoce PROCASU
+                </a>
+                <br>
+                <a href="../php/contacto.php" class="m-3 d-inline-block btn  d-block " style="padding:1rem; background-color: var(--procasu3); ">
+                    <img src="../../img/Icono-Necesitas-Ayuda.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
+                    ¿Necesitas Ayuda?
+                </a>
             </div>
         </div>
     <!-- Fin MENU -->
@@ -87,60 +91,126 @@
               </div>
             </div>
           </nav>
-
           <main style="height: 41.3rem; width:auto;">
-          <div style="display: flex; margin:none; padding:none; ">
-        <div class="container py-3">
-                <h1 class="fs-4"></h1>
+        <div class="container py-3 ">
             <div class="row">
-                <div class="container mt-5">
-    <div class="row align-items-start">
-        <div class="col-2">
-                <div class="card-header bg-grey">
-                <div class="card rounded-0 bg-grey">
-               <h5> Commitment</h5>
-               <li><a style="color: black;" href="../php/Gobernanza.php" >Gobernanza</li></a>
-        </div>
-        </div>
-        </div>
-        <div class="col-2">
-        <div class="card-header bg-grey">
-        <div class="card my-card rounded bg-grey">
-              <h5> ESG Developer</h5>
-                <!-- Más enlaces según se requiera -->
-            </ul>
-        </div>
-        </div>
-        </div>
-        <!-- Repite lo anterior para las columnas 3, 4 y 5 -->
-        <div class="col-2">
-        <div class="card-header bg-grey">
-        <div class="card rounded bg-grey">
-        <h5>ESG Mater</h5>
-            <!-- Contenido de columna -->
-        </div>
-        </div>
-        </div>
-        <div class="col-2">
-        <div class="card-header bg-grey">
-        <div class="card rounded bg-grey">
-        <h5>ESG Pro</h5>
-            <!-- Contenido de columna -->
-        </div>
-        </div>
-        </div>
-        <div class="col-2">
-        <div class="card-header bg-grey">
-        <div class="card rounded bg-grey">
-        <h5> ESG Leader</h5>
-        </div>
-            <!-- Contenido de columna -->
-        </div>
+            <div class="container text-center">
+  <div class="row">
+    
+    <div class="btn-group">
+  <button class="btn  dropdown-toggle p-2" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+  Commitment
+  </button>
+  <ul class="dropdown-menu">
+    <li>   
+        <div class="card" style="width: 30rem;">
+  <div class="card-header">
+      <h5>Gobernanza</h5>
+      <ul class="list-group list-group-flush">
+      <li class="list-group-item"> 
+      <div class=" align-text-bottom ">
+      <div class="btn-group">
+  <div class="row">
+  <div class="row">
+  <div class="col-2 col-sm-4"><a href="../php/Gobernanza.php" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+    1
+        </a>
     </div>
+    <div class="col-2 col-sm-4"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+    2
+        </a>
     </div>
-      </div>      
+    <div class="col-2 col-sm-4"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+    3
+        </a>
     </div>
-        </div>
+    <div class="col-2 col-sm-4"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+    4
+        </a>
+    </div>
+    <div class="col-2 col-sm-4"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: rem;">
+    5
+        </a>
+    </div>
+    <div class="col-2 col-sm-4"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: rem;">
+    6
+        </a>
+    </div>
+    <div class="col-2 col-sm-4"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+    7
+        </a>
+    </div>
+    <div class="col-2 col-sm-4"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: rem;">
+    8
+        </a>
+    </div>
+    <div class="col-2 col-sm-4"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: rem;">
+    9
+        </a>
+    </div>
+    <!-- Force next columns to break to new line -->
+
+</div>
+</li>
+</ul>
+  
+
+ </div>
+</a>
+</li>
+    <li><a class="dropdown-item" href="#">Contexto Global </a></li>
+    <li><a class="dropdown-item" href="#">Social </a></li>
+  </ul>
+</div>
+
+<div class="btn-group">
+  <button class="btn btn-secondary dropdown-toggle" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+  ESG Developer
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+  </ul>
+</div>
+
+<div class="btn-group">
+  <button class="btn btn-secondary dropdown-toggle" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+  ESG Mater
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+  </ul>
+</div>
+
+<div class="btn-group">
+  <button class="btn btn-secondary dropdown-toggle" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+  ESG Pro
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+  </ul>
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary dropdown-toggle" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+  ESG Leader
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+    <li><a class="dropdown-item" href="#">Menu item</a></li>
+  </ul>
+</div>
+    </div>
+            </div>
+             
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
          <div class="mt-5 h3" style="text-align:right;">
     <a href="inicio.php" class="a">
       <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2.7rem" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
@@ -148,7 +218,11 @@
 </svg> Regresar</a> 
 </main>
 
-
+<footer >
+            <br>
+					<p class="text-center">Copyright <sup>©</sup> 2023-2024 Procasu todos los derechos reservados </p>
+				
+            </footer>
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -193,12 +267,8 @@
             </script>
         </div>
 </div>
-</body>
-<footer >
-            <br>
-					<p class="text-center">Copyright <sup>©</sup> 2023-2024 Procasu todos los derechos reservados </p>
-				
-            </footer>
+
+
             </main>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body> 
