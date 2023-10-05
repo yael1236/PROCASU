@@ -231,12 +231,12 @@ if (isset($_POST['submit'])) {
 											<div class="col-2 text-right" class="iconos">
                                             <img src="../../Iconos/Icono-Telefono.png" width="35px">
 											</div>
-											<div class="col-9 p-6"><a style="color:black;" href="tel:+52 55-4123-29116">Linea PROCASU</a></div>
+											<div class="col-9 p-6"><a style="color:black;" href="tel:+52 55-4123-29116">Línea PROCASU</a></div>
 											</div>
-                                            <span style="font-size:0.9rem;">Contactate con nosotros al numero que aparece abajo.</span>
+                                            <span style="font-size:0.9rem;">Contactate con nosotros al número que aparece abajo.</span>
                                             <br>
                                             <span style="font-size: 17px; font-weight: bold;">55-4123-29116</span><br>
-                                            <small style="font-size:0.9rem;">Horario de atencion al cliente:</small><br>
+                                            <small style="font-size:0.9rem;">Horario de atención al cliente:</small><br>
                                              <small style="font-size:0.9rem;">Lunes - Viernes de 09:00: 18:00</small>
                                          </div>
                                          </section>
