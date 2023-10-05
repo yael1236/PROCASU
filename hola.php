@@ -37,8 +37,8 @@
       </div>
       <p style="text-align: center; font-size:xx-large;">Iniciar Sesión</p>
                         <form action="app/php/login.php" method="POST">
-                            <input type="user" id="user1" name="user1" class="form-control form-control-user mb-3" placeholder="Correo Electrónico" name="Email">
-                            <input type="password" id="password1" name="password1" class="form-control form-control-user mb-3" placeholder="Contraseña" name="password" >
+                            <input type="text" class="form-control form-control-user mb-3" placeholder="Correo Electrónico" name="Email">
+                            <input type="password"  class="form-control form-control-user mb-3" placeholder="Contraseña" name="password" >
 
                             <div class="form-group" v-html="datos">
                             </div>

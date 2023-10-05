@@ -93,7 +93,7 @@
           </nav>
           <main style="height: 41.3rem; width:auto;">
           <div style="display: flex; margin:none; padding:none; ">
-        <div class="container py-3 ">
+        <div class="container py-3 p-8">
                 <h1 class="fs-4"></h1>
             <div class="row">
                 <div class="container mt-5">
@@ -162,168 +162,46 @@ Commitment
         </div>
   </div>
   </li> 
-    <div class="card" style="width: 22rem;">
-<div class="card-header">
-  <h5>Global</h5>
-  <ul class="list-group list-group-flush">
-  <li class="list-group-item"> 
-  <div class=" align-text-bottom ">
-  <div class="btn-group">
-<div class="row">
-
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-1
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-2
-</a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-3
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-4
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-5
-    </a>
-</div>
-<div class="w-100"></div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-6
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-7
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-8
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-9
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-10
-    </a>
-</div>
-</div>
-</div>
-        </div>
-  </div>
-  </li> 
-    <li><div class="card" style="width: 22rem;">
-<div class="card-header">
-  <h5>Social</h5>
-  <ul class="list-group list-group-flush">
-  <li class="list-group-item"> 
-  <div class=" align-text-bottom ">
-  <div class="btn-group">
-<div class="row">
-
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-1
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-2
-</a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-3
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-4
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-5
-    </a>
-</div>
-<div class="w-100"></div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-6
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-7
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-8
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-9
-    </a>
-</div>
-<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
-10
-    </a>
-</div>
-</div>
-</div>
-        </div>
-  </div>
-  </li> 
   </ul>
 </div>
     </div> 
-     </div>
-     </div>
+    <!--
         <div class="col-2">
         <div class="card-header bg-grey">
-        <div class="card rounded-1 bg-grey">
-        <div class="btn-group">
-<button class="btn  dropdown-toggle p-2" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-ESG Developer
-</button>
+        <div class="card my-card rounded bg-grey">
+              <h5> ESG Developer</h5>
+                 Más enlaces según se requiera 
+            </ul>
         </div>
+        </div>
+        </div>
+         Repite lo anterior para las columnas 3, 4 y 5 
+        <div class="col-2">
+        <div class="card-header bg-grey">
+        <div class="card rounded bg-grey">
+        <h5>ESG Mater</h5>
+             Contenido de columna 
         </div>
         </div>
         </div>
         <div class="col-2">
         <div class="card-header bg-grey">
         <div class="card rounded bg-grey">
-        <div class="btn-group">
-<button class="btn  dropdown-toggle p-2" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-ESG Mater
-</button>
-        </div>
-        </div>
-        </div>
-        </div>
-        <div class="col-2">
-        <div class="card-header bg-grey">
-        <div class="card rounded bg-grey">
-        <div class="btn-group">
-<button class="btn  dropdown-toggle p-2" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-ESG Pro
-</button>
-        </div>
+        <h5>ESG Pro</h5>
+            Contenido de columna 
         </div>
         </div>
         </div>
         <div class="col-2">
         <div class="card-header bg-grey">
         <div class="card rounded bg-grey">
-        <div class="btn-group">
-<button class="btn  dropdown-toggle p-2" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-ESG Leader
-</button>
-</div>
-        </div> 
+        <h5> ESG Leader</h5>
+        </div>
+             Contenido de columna 
         </div>
     </div>
-    </div>
-     </div>    
-            </div>      
+    </div>-->
+                </div>          
   </div>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

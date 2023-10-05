@@ -87,7 +87,7 @@
       <section style="background-color: white; padding-top: 1rem; " >
       <div class="setings">
                   <div style="display: flex;">
-                  <a href="https://maps.app.goo.gl/UQnWxhPEntNmdiJn8"><img src="./img/Iconos_png/Icono-de-dirección---ubicación.png" alt="proc" style="height: 1.9rem; padding-right:.5rem;" ></a><p class="font-weight-bold p-.9 text-color: primary;">MONTERREY</p>
+                  <a href="https://maps.app.goo.gl/UQnWxhPEntNmdiJn8"><img src="./img/Icono-de-dirección---ubicación.png" alt="proc" style="height: 1.9rem; padding-right:.5rem;" ></a><p class="font-weight-bold p-.9 text-color: primary;">MONTERREY</p>
                   </div>
                   <div class="ml-2" style="display: flex;    padding-left: .7rem;">
                   <a style="color:black;" href="tel:+52 55-4123-29116"><img src="./img/Icono-Telefono.png" alt="proc" style="height: 1.9rem; padding-right:.5rem;"></a><p class="p-.9">55-4123-29116</p>
