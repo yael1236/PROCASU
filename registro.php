@@ -48,7 +48,7 @@
                   <div style="display: flex;">
                   <img src="img/Icono-Usuario.png" alt="" style="width: auto; height: 3rem;">
                   <input type="user" id="user1" name="user1" class="form-control form-control-user mb-3" placeholder="Usuario" v-model="txtuser"> 
-                  </div>u
+                  </div>
                   <div style="display: flex;">
                   <img src="img/Icono Candado B-C.png" alt="" style="width: auto; height: 3rem;">
                   <input type="password" id="password1" name="password1" class="form-control form-control-user mb-3" placeholder="Contraseña" v-model="txtPws">
