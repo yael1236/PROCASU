@@ -120,40 +120,40 @@ Commitment
 1
     </a>
 </div>
-<div class="col-2"><a href="../php/Gobernanza.php" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
 2
 </a>
 </div>
-<div class="col-2"><a href="../php/Gobernanza.php" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
 3
     </a>
 </div>
-<div class="col-2"><a href="../php/Gobernanza.php" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
 4
     </a>
 </div>
-<div class="col-2"><a href="../php/Gobernanza.php" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
 5
     </a>
 </div>
 <div class="w-100"></div>
-<div class="col-2"><a href="../php/Gobernanza.php" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
 6
     </a>
 </div>
-<div class="col-2"><a href="../php/Gobernanza.php" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
 7
     </a>
 </div>
-<div class="col-2"><a href="../php/Gobernanza.php" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
 8
     </a>
 </div>
-<div class="col-2"><a href="../php/Gobernanza.php" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
 9
     </a>
 </div>
-<div class="col-2"><a href="../php/Gobernanza.php" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
+<div class="col-2"><a href="#" class="border my-2 mx-2 btn btn-outline-primary sub " style=" padding-right: 1rem; margin-left: 1rem;">
 10
     </a>
 </div>
