@@ -63,7 +63,7 @@
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
               <li class="nav-item dropdown">
                 <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <img src="img/usuario.jpg" class="img-fluid rounded-circle avatar mr-2" alt=" " />
+                  <img src="../../img/usuario.jpg" class="img-fluid rounded-circle avatar mr-2" alt=" " />
                   Usuario
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -88,7 +88,7 @@
                 <div class="card-header bg-light">
                   <h6 class="font-weight-bold mb-0">Modelo de Gestión</h6>
                 </div>
-                <a href="#" class=" m-3 btn btn-outline-primary  largo">
+                <a href="comite.php" class=" m-3 btn btn-outline-primary  largo">
                   Comité
                 </a>
                 <div class="conbnt">
