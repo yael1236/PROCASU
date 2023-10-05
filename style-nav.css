@@ -3,6 +3,31 @@
     --procasu2: #11bdd1;
     --procasu3:#dddddd;
 }
+/*botones modelo y notificaciones*/
+.btn-primary {
+    background-color: var(--procasu1);
+    border: 0;
+}
+.btn-primary1 {
+    background-color: var(--procasu3);
+    border: 0;
+}
+.btn-primary:hover {
+    background-color: #505c85 ;
+}
+.btn-outline-primary {
+    border: 0;
+    color: var(--procasu1);
+}
+.border{
+    border: 1px solid var(--procasu1);
+}
+.btn-outline-primary:hover {
+    background-color: var(--procasu1) ;
+}
+.texto1{
+    color: var(--procasu1);
+}
 /*nav*/
 .navbar{
     background-color: var(--procasu3);
@@ -16,6 +41,12 @@
 #sidebar-container  {
     background-color: var(--procasu1);
     min-height: 100vh;
+    min-width: 40vh;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+#sidebar-container .menu {
+    width: 18rem;
 }
 
 /*Iconos*/
@@ -72,4 +103,43 @@ footer .conbnt{
 .cont .small{
     color: #dddddd;
     margin-top: 3rem;
+}
+
+/*modelo*/
+.modelo{
+    padding-left: 2rem ;
+    padding-right: 2rem;
+}
+.ico{
+    align-content: center;
+
+}
+.lg{    
+    width: 95%;
+}
+.card{
+    width: 115%;
+}
+.card1{
+    width: 150%;
+    padding-left: 3rem;
+    margin-left: 1.5rem;
+}
+a:hover {
+    text-decoration: none;
+    font-weight: 100;
+}
+.sub{
+    text-align: center;
+}
+/*perfil*/
+.form-group {
+  margin-bottom: 1rem; 
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 500px; 
 }

@@ -95,8 +95,8 @@
                   <a href="#" class="m-3 btn btn-outline-primary ">
                     Plamificación
                   </a>
-                  <a href="#" class="m-3 btn btn-outline-primary ">
-                    Congreso Integral
+                  <a href="../php/indicadores.php" class="m-3 btn btn-outline-primary ">
+                    Gestión Integral
                   </a>
                   <a href="#" class="m-3 btn btn-outline-primary ">
                     Buenas Practicas
