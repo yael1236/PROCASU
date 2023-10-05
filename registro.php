@@ -48,10 +48,9 @@
                   <div style="display: flex;">
                   <img src="img/Icono-Usuario.png" alt="" style="width: auto; height: 3rem;">
                   <input type="user" id="user1" name="user1" class="form-control form-control-user mb-3" placeholder="Usuario" v-model="txtuser"> 
-                  </div>
-                  <br>
+                  </div>u
                   <div style="display: flex;">
-                  <img src="img/Icono-Usuario.png" alt="" style="width: auto; height: 3rem;">
+                  <img src="img/Icono Candado B-C.png" alt="" style="width: auto; height: 3rem;">
                   <input type="password" id="password1" name="password1" class="form-control form-control-user mb-3" placeholder="Contraseña" v-model="txtPws">
                   </div>   
                 </div>
@@ -97,7 +96,7 @@
                   <a href="mailto: atencion@procasu.com.mx?Subject=Soy%20un%20nuevo%20usuario."><img src="./img/Icono-Correo.png" alt="proc" style="height: 1.9rem; padding-right:.5rem;"></a><p class="p-.9">atencion@procasu.com.mx</p>
                   </div>
                   <div class="ml-2" style="display: flex;    padding-left: .7rem;">
-                  <a href="http://localhost/PROCASU/registro.php"><img src="./img/Icono-Sitio-web.png" alt="proc" style="height: 1.9rem; padding-right:.5rem;"></a><p class="p-.9">www.procasu.net</p>  
+                  <a href="http://localhost/PROCASU/registro.php"><img src="./img/Icono-Sitio-web.png" alt="proc" style="height: 1.9rem; padding-right:.4rem;"></a><p class="p-.9">www.procasu.net</p>  
                   </div>
       </div>
     </section>
