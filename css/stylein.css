@@ -91,12 +91,24 @@ color:black;
     padding: 0.890rem 1.25rem;
 }
   
+/*menu*/
+#sidebar-container  {
+    background-color: var(--procasu1);
+
+    min-width: 25vh;
+  
+}
+
 #sidebar-container .menu {
-    width: 7.5rem;
-    height: 46.6;
-    font: size 0.9rem;
+    width: 15rem;
 
 }
+
+/*Iconos*/
+.iconos {
+    max-width: 35px;
+}
+
 .a-p{
     text-align:right;}
     .a-p1{
@@ -183,4 +195,16 @@ hr {
         border-image: initial;
         border-top-style: solid;
         border-top-color: rgba(0, 0, 0, 0.1); }
-      
+.conbnt{
+            display: flex;
+            width: 100%;
+        }
+.icon{
+            margin-right: 1rem;
+            margin-left: 3rem;
+            margin-top: 1rem;
+        }
+
+.iconos {
+            max-width: 35px;
+        }
